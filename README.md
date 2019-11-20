@@ -1,2 +1,6 @@
-# bertelsmann-tech-scholarship
-Bertelsmann Tech Scholarship
+# Bertelsmann Tech Scholarship
+
+<h1 align="center">
+  <img src="assets/images/bertelsmann.jpg" alt="Bertelsmann Tech Scholarship">
+</h1>
+
