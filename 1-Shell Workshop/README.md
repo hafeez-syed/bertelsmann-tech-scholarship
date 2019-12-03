@@ -8,6 +8,13 @@
 
 <img src="../assets/images/1-shell-workshop/iterm2.png" alt="Bertelsmann Tech Scholarship">
 
+## Directory denoations in *NIX (UNIX/LINUX) OS
+
++ home directory ` ~ `
++ root directory ` / `
++ current directory ` . `
++ parent directory ` .. `
+
 ## Shell Commands
 
 ```bash
