@@ -2,34 +2,50 @@
 
 ## Commands
 
+> `git` version check
+
 ```bash
 $ git --verison
 ```
 
+> start a new git repository
 
 ```bash
 $ git init
 ```
 
+> copy or clone an existing git repository
+
 ```bash
 $ git clone <repo URL>
 ```
+
+> add all files i.e ` . ` in the current directory and all it's child directories to staging
 
 ```bash
 $ git add .
 ```
 
+> add a file to staging
+
 ```bash
-$ git add <file-name>
+$ git add </file-path/file-name>
 ```
+
+> add a commit add files to the local branch
 
 ```bash
 $ git commit -m "commit message"
 ```
 
+> display the current status of the branch. New files, deleted files or updated files are listed
+
 ```bash
 $ git status
 ```
+
+> it displays the details of the committed files i.e date, author, commit message etc.
+
 
 ```bash
 $ git log
@@ -60,8 +76,42 @@ $ git log -p <SHA>
 ```
 
 ```bash
+$ git log --decorate
+```
+
+```bash
 $ git show <first 7 characters of SHA> --stat
 ```
+
+```bash
+$ git tag -a v1.0
+```
+
+```bash
+$ git tag
+```
+
+```bash
+$ git tag -d v1.0
+```
+
+```bash
+$ git tag -a v1.0 <SHA>
+```
+
+```bash
+$ git branch sidebar
+```
+
+```bash
+$ git checkout sidebar
+```
+
+```bash
+$ git checkout -b sidebar
+```
+
+
 ## Good commit messages
 
 ### Do
