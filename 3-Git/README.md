@@ -84,6 +84,19 @@ $ git show <first 7 characters of SHA> --stat
 ```
 
 ```bash
+$ git branch sidebar
+```
+
+```bash
+$ git checkout sidebar
+```
+
+```bash
+$ git checkout -b sidebar
+```
+
+
+```bash
 $ git tag -a v1.0
 ```
 
@@ -99,17 +112,6 @@ $ git tag -d v1.0
 $ git tag -a v1.0 <SHA>
 ```
 
-```bash
-$ git branch sidebar
-```
-
-```bash
-$ git checkout sidebar
-```
-
-```bash
-$ git checkout -b sidebar
-```
 
 
 ## Good commit messages
